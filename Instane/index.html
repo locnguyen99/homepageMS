@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Maysoft</title>
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!--Js-->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+		crossorigin="anonymous"></script>
+
+	<!--css simple>-->
+	<link rel="stylesheet" href="styles.css">
+
+	<!-- effect imgae -->
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+	
+
+</head>
+
+<body>
+
+	<!-- Nav-bar-header -->
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-header height-header sticky-top">
+		<div class="container">
+
+			<!-- logo -->
+			<div>
+				<a class="navbar-brand" href="#"><img height="40px" src="./assets/images/LOGO.png"></a>
+			</div>
+			<!-- RESPONSIVE -->
+			<div class="navbar-collapse flex-lg-row flex-md-column justify-content-center collapse"
+				id="navbarTogglerDemo03">
+				<!-- MENU ITEM LEFT-->
+				<ul class="navbar-nav padding-left-nav h-100 ml-auto">
+					<!-- <a class="home-button d-flex align-items-center px-3" href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-house-door-fill h-100"
+							width="25px" viewBox="0 0 16 16">
+							<path
+								d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z" />
+						</svg>
+					</a> -->
+					<li class="nav-item d-flex align-items-center">
+						<a href="#" class="nav-link float-end px-3 nav-mennu">Website</a>
+					</li>
+					<li class="nav-item d-flex align-items-center">
+						<a href="#" class="nav-link float-end px-3 nav-mennu">Webapp</a>
+					</li>
+					<li class="nav-item d-flex align-items-center">
+						<a href="#" class="nav-link float-end px-3 nav-mennu">Outsource</a>
+					</li>
+					<li class="nav-item d-flex align-items-center">
+						<a href="#" class="nav-link float-end px-3 nav-mennu">Đối tác</a>
+					</li>
+					<li class="nav-item d-flex align-items-center">
+						<a href="#" class="nav-link float-end px-3 nav-mennu">Blog</a>
+					</li>
+					<li class="nav-item d-flex align-items-center">
+						<a href="#" class="nav-link float-end px-3 nav-mennu">Liên hệ</a>
+					</li>
+				</ul>
+				<!-- MENU ITEM RIGHT -->
+				<div class="d-flex float-end mx-5 ml-auto">
+					<div class="nav-item mx-1">
+						<a href="#" class="nav-link swap-language" aria-current="page">EN</a> </a>
+					</div>
+					<div class="vartical-line"></div>
+					<div class="nav-item mx-1">
+						<a href="#" class="nav-link swap-language">VI</a>
+					</div>
+					<!-- </div> -->
+				</div>
+			</div>
+
+			<!-- toggle button -->
+			<button class="navbar-toggler h-100" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+		</div>
+	</nav>
+
+	<!-- Content -->
+	<div class="my-container top-slider">
+		<!-- header bg image -->
+		<div class="d-none d-md-block w-70">
+			<img class="bg-image-header" src="assets/images/background_homepage.png" />
+		</div>
+		<!-- Top slider -->
+		<div class="container">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row d-flex justify-content-between flex-column-reverse flex-md-row px-md-4-pct">
+							<div class="col-md-6 d-flex align-items-center mt-5 mt-md-0">
+								<div class="">
+									<div class="title">
+										<h4>Thiết kế Website</h4>
+										<h4>Tốc độ và Sáng tạo</h4>
+									</div>
+									<div class="content">
+										<p>Có rất nhiều công ty thiết kế website tại Việt
+											Nam,
+											nhưng vẫn chưa có công ty quan tâm đến <span class="color-red">tốc
+												độ</span>
+											truyền tải của website và sự <span class="color-red">Sáng tạo</span>
+											trong mỗi thiết
+											kế. Maysoft sẽ tiết kiệm <span class="color-red">1 giây</span> khi
+											load và ý
+											tưởng của từng website đến từng doanh nghiệp.</p>
+									</div>
+									<div class="float-end">
+										<a href="#" class="text-decoration">Xem thêm >></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 bg-image">
+								<div class="cwidth-slider">
+									<img class="img-fluid h-100 d-block w-100" src="assets/images/Banner.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row d-flex justify-content-between flex-column-reverse flex-md-row px-md-4-pct">
+							<div class="col-md-6 d-flex align-items-center mt-5 mt-md-0">
+								<div class="">
+									<div class="title">
+										<h4>Thiết kế Website</h4>
+										<h4>Tốc độ và Sáng tạo</h4>
+									</div>
+									<div class="content">
+										<p>Có rất nhiều công ty thiết kế website tại Việt
+											Nam,
+											nhưng vẫn chưa có công ty quan tâm đến <span class="color-red">tốc
+												độ</span>
+											truyền tải của website và sự <span class="color-red">Sáng tạo</span>
+											trong mỗi thiết
+											kế. Maysoft sẽ tiết kiệm <span class="color-red">1 giây</span> khi
+											load và ý
+											tưởng của từng website đến từng doanh nghiệp.</p>
+									</div>
+									<div class="float-end">
+										<a href="#" class="text-decoration">Xem thêm >></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 bg-image">
+								<div class="cwidth-slider">
+									<img class="img-fluid h-100 d-block w-100" src="assets/images/Banner.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row d-flex justify-content-between flex-column-reverse flex-md-row px-md-4-pct">
+							<div class="col-md-6 d-flex align-items-center mt-5 mt-md-0">
+								<div class="">
+									<div class="title">
+										<h4>Thiết kế Website</h4>
+										<h4>Tốc độ và Sáng tạo</h4>
+									</div>
+									<div class="content">
+										<p>Có rất nhiều công ty thiết kế website tại Việt
+											Nam,
+											nhưng vẫn chưa có công ty quan tâm đến <span class="color-red">tốc
+												độ</span>
+											truyền tải của website và sự <span class="color-red">Sáng tạo</span>
+											trong mỗi thiết
+											kế. Maysoft sẽ tiết kiệm <span class="color-red">1 giây</span> khi
+											load và ý
+											tưởng của từng website đến từng doanh nghiệp.</p>
+									</div>
+									<div class="float-end">
+										<a href="#" class="text-decoration">Xem thêm >></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="cwidth-slider bg-image">
+									<img class="img-fluid h-100 d-block w-100" src="assets/images/Banner.png">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- button next and prev -->
+				<button class="carousel-control-prev percent-5 d-none d-md-block" type="button"
+					data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon btn_back hover-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next percent-5 d-none d-md-block" type="button"
+					data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+					<span class="carousel-control-next-icon btn_next hover-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- header panel -->
+	<div class="main-content p-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 col-12 spacing-mobile-top">
+					<div class="bg-image hover-zoom hover-overlay shadow-1-strong rounded zoom">
+						<img class="img-fluid h-100" src="assets/images/thumbnail01.png">
+					</div>
+					<div class="py-3">
+						<div>Website</div>
+						<div>Tốc độ và sáng tạo</div>
+					</div>
+					<div class="padding-detail">
+						<a href="#" class="text-decoration">Xem chi tiết</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 col-12 spacing-mobile">
+					<div class="bg-image hover-zoom hover-overlay shadow-1-strong rounded zoom">
+						<img class="img-fluid h-100" src="assets/images/thumbnail02.png">
+					</div>
+					<div class="py-3">
+						<div>App</div>
+						<div>Quản lý đơn giản và hiệu quả</div>
+					</div>
+					<div class="padding-detail-center">
+						<a href="#" class="text-decoration">Xem chi tiết</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 col-12">
+					<div class="bg-image hover-zoom hover-overlay shadow-1-strong rounded zoom">
+						<img class="img-fluid h-100" src="assets/images/thumbnail03.png">
+					</div>
+					<div class="py-3">
+						<div>Outcource</div>
+						<div>Lucee & Preside</div>
+					</div>
+					<div class="padding-detail">
+						<a href="#" class="text-decoration">Xem chi tiết</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- body slide -->
+	<div class="my-container bg-grey">
+		<div class="container">
+			<div id="carouselExampleSlidesOnly1" class="carousel slide" data-bs-ride="carousel">
+				<!-- button switch slider -->
+				<!-- <div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleSlidesOnly1" data-bs-slide-to="0"
+						class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleSlidesOnly1" data-bs-slide-to="1"
+						aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleSlidesOnly1" data-bs-slide-to="2"
+						aria-label="Slide 3"></button>
+				</div> -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row d-flex justify-content-between flex-column-reverse flex-md-row px-md-4-pct">
+							<div class="col-md-6 d-flex align-items-center mt-5 mt-md-0">
+								<div>
+									<h6 class="title-text-small" class="title-text-small">TRUY CẬP WEBSITE</h6>
+									<h4 class="title-text-big" class="title-text-big">TỐC ĐỘ</h4>
+									<div>
+										<p class="content-slider-body" class="content-slider-body">Maysoft có đội
+											ngũ lập trình chuyên nghiệp, kinh nghiệm, tâm huyết và
+											có những thủ thuật giúp website hoạt động nhanh và vững, giúp doanh
+											nghiệp
+											truy
+											cập website với thời lượng không quá 3 giây.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 bg-image">
+								<img src="assets/images/banner_body.png" class="d-block w-100 h-100" alt="...">
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row d-flex justify-content-between flex-column-reverse flex-md-row px-md-4-pct">
+							<div class="col-md-6 d-flex align-items-center mt-5 mt-md-0">
+								<div>
+									<h6 class="title-text-small" class="title-text-small">TRUY CẬP WEBSITE</h6>
+									<h4 class="title-text-big" class="title-text-big">TỐC ĐỘ</h4>
+									<div>
+										<p class="content-slider-body" class="content-slider-body">Maysoft có đội
+											ngũ lập trình chuyên nghiệp, kinh nghiệm, tâm huyết và
+											có những thủ thuật giúp website hoạt động nhanh và vững, giúp doanh
+											nghiệp
+											truy
+											cập website với thời lượng không quá 3 giây.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 bg-image">
+								<img src="assets/images/banner_body.png" class="d-block w-100 h-100" alt="...">
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row d-flex justify-content-between flex-column-reverse flex-md-row px-md-4-pct">
+							<div class="col-md-6 d-flex align-items-center mt-5 mt-md-0">
+								<div>
+									<h6 class="title-text-small" class="title-text-small">TRUY CẬP WEBSITE</h6>
+									<h4 class="title-text-big" class="title-text-big">TỐC ĐỘ</h4>
+									<div>
+										<p class="content-slider-body" class="content-slider-body">Maysoft có đội
+											ngũ lập trình chuyên nghiệp, kinh nghiệm, tâm huyết và
+											có những thủ thuật giúp website hoạt động nhanh và vững, giúp doanh
+											nghiệp
+											truy
+											cập website với thời lượng không quá 3 giây.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 bg-image">
+								<img src="assets/images/banner_body.png" class="d-block w-100 h-100" alt="...">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- button next and prev -->
+				<button class="carousel-control-prev percent-5 d-none d-md-block" type="button"
+					data-bs-target="#carouselExampleSlidesOnly1" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon btn_back hover-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next percent-5 d-none d-md-block" type="button"
+					data-bs-target="#carouselExampleSlidesOnly1" data-bs-slide="next">
+					<span class="carousel-control-next-icon btn_next hover-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- product, partner, marketing -->
+	<div class="container">
+		<!-- product...  -->
+		<div class="row py-5">
+			<!-- left column -->
+			<div class="col-lg-6 col-12">
+				<!-- left app 1 -->
+				<div class="row h-50 text-white">
+					<div class="col-12">
+						<!-- text and image block -->
+						<div class="w-50 d-flex p-4 h-100 float-start bg-app-1 zoom">
+							<div class="align-self-center">
+								<div class="logo-image">
+									<img class="img-fluid" src="assets/images/Logo_Maydental_white.png">
+								</div>
+								<div class="text-image mt-3 mb-3">
+									Phần mềm quản lý nha khoa.
+								</div>
+								<div class="link-image">
+									<a href="#" class="text-decoration text-white">XEM
+										CHI
+										TIẾT ></a>
+								</div>
+							</div>
+						</div>
+						<img class="h-100 w-50" src="assets/images/Screenshot_table.png">
+					</div>
+				</div>
+				<!-- left app 2 -->
+				<div class="row h-50 spacing-top text-white">
+					<div class="col-12">
+						<div class="img-12 h-100">
+							<div class="w-50 d-flex p-4 h-100 float-end">
+								<div class="align-self-end">
+									<div class="logo-image float-end">
+										<img class="img-fluid" src="assets/images/Logo_Maydental_white.png">
+									</div>
+									<div class="text-image mt-3 mb-3 float-end">
+										Phần mềm quản lý phòng khám.
+									</div>
+									<div class="link-image">
+										<a href="#" class="text-decoration text-white float-end">XEM CHI TIẾT
+											></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- right column -->
+			<div class="col-lg-6 col-12 pt-product-3">
+				<div class="d-flex flex-column h-100">
+					<!-- right app 1 -->
+					<div class="h-100 img-21">
+						<div class="w-50 d-flex p-4 h-100 float-end">
+							<div class="align-self-center">
+								<div class="logo-image float-end">
+									<img class="img-fluid" src="assets/images/Logo_Maysoft_blue.png">
+								</div>
+								<div class="text-image mt-3 mb-3 float-end">
+									Phần mềm quản lý ô tô.
+								</div>
+								<div class="link-image">
+									<a href="#" class="text-decoration text-muted float-end">XEM
+										CHI TIẾT ></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- right app 2 -->
+					<div class="h-100 img-22 mt-2 mb-2 text-white">
+						<div class="w-50 d-flex p-4 h-100 float-end">
+							<div class="align-self-center">
+								<div class="logo-image float-end">
+									<img class="img-fluid" src="assets/images/Logo_Maydental_white.png">
+								</div>
+								<div class="text-image mt-3 mb-3 float-end">
+									Phần mềm quản lý ô tô.
+								</div>
+								<div class="link-image">
+									<a href="#" class="text-decoration text-white float-end">XEM
+										CHI TIẾT ></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- right app 3 -->
+					<div class="h-100 img-23 text-white">
+						<!-- text block  -->
+						<div class="w-50 d-flex p-4 h-100 float-start bg-app-2">
+							<div class="align-self-center">
+								<div class="logo-image">
+									<img class="img-fluid" src="assets/images/Logo_Maydental_white.png">
+								</div>
+								<div class="text-image mt-3 mb-3">
+									Phần mềm quản lý ô tô.
+								</div>
+								<div class="link-image">
+									<a href="#" class="text-decoration text-white">XEM CHI
+										TIẾT
+										></a>
+								</div>
+							</div>
+						</div>
+						<img class="h-100 w-50" src="assets/images/Screenshot_cars.png">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Marketing online -->
+		<div class="h-500px">
+			<div class="row h-100">
+				<div class="col-12">
+					<div class="img-marketing h-100 background-image">
+						<!-- text block -->
+						<div class="width-marketing d-flex p-4 h-100 float-start">
+							<div class="align-self-end">
+								<h4>MARKETING</h4>
+								<h1>ONLINE</h1>
+								<div class="text-image py-3">
+									Maysoft có đội ngũ marketing online tận tình, nhiệt huyết, vui vẻ và
+									đặc biệt là kĩ năng chuyên môn cao, luôn sẵn sàng làm hài lòng đến doanh
+									nghiệp
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Partner -->
+		<div class="row py-5">
+			<div class="lg-col-6 col-md-6 col-sm-12 col-6">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-3">
+						<div class="logo-image pt-3 float-start zoom">
+							Partners сompanies сhoose
+							Maysoft
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 py-3">
+						<div class="logo-image pt-3 bg-image hover-zoom zoom">
+							<img class="img-fluid padding-partner-a2" src="assets/images/logo_codestream.png">
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 py-3">
+						<div class="logo-image pt-3 bg-image hover-zoom zoom">
+							<img class="img-fluid padding-partner-a3" src="assets/images/logo_lucee.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="lg-col-6 col-md-6 col-sm-12 col-6">
+				<div class="row">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 py-3">
+						<div class="logo-image pt-3 bg-image hover-zoom zoom">
+							<img class="img-fluid" src="assets/images/logo_pixl8.png">
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 py-3">
+						<div class="logo-image pt-3 bg-image hover-zoom zoom">
+							<img class="img-fluid" src="assets/images/logo_preside.png">
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 py-3">
+						<div class="logo-image pt-3 bg-image hover-zoom zoom">
+							<img class="img-fluid" src="assets/images/logo_toomba.png">
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 py-3">
+						<div class="logo-image pt-3 bg-image hover-zoom zoom">
+							<img class="img-fluid" src="assets/images/logo_vingroup.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="bg-full-width my-container-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 py-3">
+					<h4>Export</h4>
+					<ul class="list-unstyled py-3">
+						<li class="py-3">
+							<a class="text-decoration-none" href="#">Website</a>
+						</li>
+						<li class="py-3">
+							<a class="text-decoration-none" href="#">Webapp</a>
+						</li>
+						<li class="py-3">
+							<a class="text-decoration-none" href="#">Outsource</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 py-3">
+					<h4>About</h4>
+					<ul class="list-unstyled py-3">
+						<li class="py-3">
+							<a class="text-decoration-none" href="#">Privacy</a>
+						</li>
+						<li class="py-3">
+							<a class="text-decoration-none" href="#">Terms</a>
+						</li>
+						<li class="py-3">
+							<a class="text-decoration-none" href="#">FAQs</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 py-3">
+					<h4>Social</h4>
+					<ul class="list-unstyled py-3">
+						<li class="py-3">
+							<a class="text-decoration-none align-text-top" href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+									class="bi bi-instagram mb-1" viewBox="0 0 16 16 ">
+									<path
+										d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+								</svg>
+								Instagram
+							</a>
+						</li>
+						<li class="py-3">
+							<a class="text-decoration-none" href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+									class="bi bi-facebook mb-1" viewBox="0 0 16 16">
+									<path
+										d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+								</svg>
+								Facebook
+							</a>
+						</li>
+						<li class="py-3">
+							<a class="text-decoration-none" href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+									class="bi bi-youtube mb-1" viewBox="0 0 16 16">
+									<path
+										d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+								</svg>
+								Youtube
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 py-3">
+					<h4>Address</h4>
+					<ul class="list-unstyled py-3">
+						<li class="py-3">
+							29 Nội Khu Mỹ Toàn 2, Tân Phong, Quận 7, Tp.HCM
+						</li>
+						<li class="py-3">
+							<h4>Contact</h4>
+						</li>
+						<li class="py-1">
+							<a class="text-decoration-none" href="#">
+								hello@maysoft.vn
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 py-5">
+					<a href="#">
+						<img class="img-fluid mb-5 ms-3" src="assets/images/Logo_Maysoft_blue.png">
+					</a>
+					<ul class="list-unstyled">
+						<li class="py-1 ms-3">
+							DKKD số: 0315477974, ngày 14/01/2019
+							Copyright ©MAYSOFT Ltd 2020. All rights reserved.
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
